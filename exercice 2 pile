@@ -1,0 +1,29 @@
+def creer_pile_vide():
+    return []
+
+def est_vide(p):
+    return len(p) == 0
+
+def empiler(p, element):
+    p.append(element)
+    
+def depiler(p):
+    e = sommet(p)
+    p.pop()
+    return e
+    
+def sommet(p):
+    return p[-1]
+
+def taille(p):
+    return len(p)
+
+
+
+def reduire_triplet_au_sommet(p):
+    a = depiler(p)
+    b = depiler(p)
+    c = sommet(p)
+    if a % 2 != c % 2:
+        empiler(p, b)
+    empiler(p, a)
