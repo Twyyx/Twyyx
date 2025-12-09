@@ -1,1 +1,4 @@
-Second-year Bachelor of Technology student in Computer Science at the University Institute of Technology of Vannes.
+# Hey, I'm Lydéric !
+💼   I'm a student at IUT de Vannes
+
+I’m currently studying Computer Science and more pricesely Cybersecurity
